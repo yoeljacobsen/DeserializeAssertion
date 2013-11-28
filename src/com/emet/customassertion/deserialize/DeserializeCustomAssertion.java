@@ -10,9 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Assertion bean for custom assertion that extracts child elements and text nodes from a parent assertion as
- * a pair of multivalued string variables, one containing element local names, and a second of the same length
- * containing their corresponding text node child contents.
+ * Deserialize a BASE64 representation of an Object (such as a MultiValued CV) to an object
  */
 public class DeserializeCustomAssertion implements CustomAssertion, UsesVariables, SetsVariables, Serializable {
     private static final long serialVersionUID = 8570850463501263975L;
